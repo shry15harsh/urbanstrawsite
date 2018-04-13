@@ -9,7 +9,7 @@ var page_hit;
 
 
 // Start server and enabling comression and cache
-var cacheTime = 86400000;
+var cacheTime = 21600000;
 
 app.use(compression());
 
