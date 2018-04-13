@@ -1,0 +1,51 @@
+.us-top-nav{
+  background: #222222;
+  box-shadow: none;
+  margin-bottom:50px;
+}
+.brand-logo img{
+  height:125px;
+}
+#home{
+  width:100vw;
+  height:100vh;
+  //background: url('../images/basket.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html{
+  background: #F5F9F2;
+}
+#nav-mobile li a{
+  text-transform: uppercase;
+}
+#nav-mobile li.active a{
+  color:#90907B;
+  background: #222222;
+}
+.card-content p{
+  color:#444444 !important;
+}
+#instafeed .col{
+  padding: 0;
+  margin:0.75em 0.75em;
+}
+@media only screen and (max-width: 500px) {
+  #instafeed .col{
+    margin:0px;
+  }
+}
+.container  {
+  display: flex;
+  //position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.container .row {
+  margin: 0 auto;
+}

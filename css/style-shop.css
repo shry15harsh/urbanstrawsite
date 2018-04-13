@@ -1,0 +1,22 @@
+.us-top-nav{
+  background: white;
+  box-shadow: 1px 1px 2px grey;
+  margin-bottom:20px;
+}
+.brand-logo img{
+  height:125px;
+}
+.us-top-nav a{
+  color:#8DB24E;
+  font-weight: bold;
+  list-style: none;
+}
+html{
+  background: #F5F9F2;
+}
+#collection-component-71e53f5d68d{
+  margin-top:50px;
+}
+.shopify-buy__product__title{
+  font-size: 12px !important;
+}

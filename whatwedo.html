@@ -1,0 +1,91 @@
+ <!DOCTYPE html>
+  <html id="home">
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <link type="text/css" rel="stylesheet" href="css/style-tab.css"  media="screen,projection">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <nav class="us-top-nav">
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo left"><img src="images/urbanstrawlogo.png"/></a>
+            <a href="#" data-target="mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a class="waves-effect waves-light btn" href="shop.html">Shop</a></li>
+              <li class="active"><a href="whatwedo.html">What we do</a></li>
+              <li><a href="partners.html">Our Partners</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li><a href="contact.html">Reach Us</a></li>
+              <li><a href="http://facebook.com/urbanstraw"><i class="fab fa-facebook-f left"></i></a></li>
+              <li><a href="instagram.com/urban.straw"><i class="fab fa-instagram left"></i></a></li>
+            </ul>
+          </div>
+      </nav>
+
+      <ul id="mobile" class="sidenav">
+        <li><a class="waves-effect waves-light btn" href="shop.html">Shop</a></li>
+        <li class="active"><a href="whatwedo.html">What we do</a></li>
+        <li><a href="partners.html">Our Partners</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Reach Us</a></li>
+        <li><a href="http://facebook.com/urbanstraw"><i class="fab fa-facebook-f left"></i>Facebook</a></li>
+        <li><a href="instagram.com/urban.straw"><i class="fab fa-instagram left"></i>Instagram</a></li>
+      </ul>
+
+      <div class="row">
+        <div class="col s12 m6 center">
+          <div class="card smokewhite darken-1">
+            <div class="card-image">
+              <img src="images/tomato.jpg">
+              <span class="card-title"><b>What we do</b></span>
+            </div>
+            <div class="card-content">
+              <p>Working with farmers and producer organisations, we ensure you get the best produce and they get the best price. All the produce are organically grown. When it reaches you, you get the information which tells you what came from where. We thus empowers you with the knowledge of how your produce is grown.</p>
+              <p>Our motto is simple - make accessible the food which is safe, nutritious and fresh to everybody. That's why we just don't deliver fruits and vegetables but also the <i> critical information</i> about where they come from.</p>
+            </div>
+            <div class="card-action">
+              <a href="shop.html"><i class="fas fa-shopping-basket"></i> Shop Now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 center">
+          <div class="card smokewhite darken-1">
+            <div class="card-image">
+              <img src="images/we.jpg">
+              <span class="card-title"><b>Who are we</b></span>
+            </div>
+            <div class="card-content">
+              <p>Among us are experienced technologists, farmers and enthusiasts who are solving some of the most critical problems related to our food. With the help of open long indigenous traditional knowledge and new digital innovations, we are working towards creating a sustainable ecosystem which benefits all.</p>
+            </div>
+            <div class="card-action">
+              <a href="https://facebook.com/urbanstraw">Follow us on Facebook</a>
+              <a href="https://instagram.com/urban.straw">Follow us on Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+            
+        
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        window.onload = function(){
+          var elem = document.querySelector('.sidenav');
+          var instance = M.Sidenav.init(elem);
+        }
+      </script>
+
+    </body>
+  </html>

@@ -1,0 +1,306 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <link type="text/css" rel="stylesheet" href="css/style-shop.css"  media="screen,projection">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <nav class="us-top-nav">
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo left"><img src="images/urbanstrawlogo.png"/></a>
+            <a href="#" data-target="mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+            <!-- <li class="delivery-disclaimer">We deliver in Noida and Ghaziabad! Next Delivery by 6 PM @ April 15, 2018</li> -->
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a href="whatwedo.html">Know More</a></li>
+              <li><a href="contact.html">Reach Us</a></li>
+            </ul>
+          </div>
+      </nav>
+
+      <ul id="mobile" class="sidenav">
+        <li><a href="whatwedo.html">Know More</a></li>
+        <li><a href="contact.html">Reach Us</a></li>
+      </ul>
+      
+      <!-- Shopify starts -->
+    <div id='collection-component-eb8919cb5de'></div>
+<script type="text/javascript">
+/*<![CDATA[*/
+
+(function () {
+  var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+  if (window.ShopifyBuy) {
+    if (window.ShopifyBuy.UI) {
+      ShopifyBuyInit();
+    } else {
+      loadScript();
+    }
+  } else {
+    loadScript();
+  }
+
+  function loadScript() {
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = scriptURL;
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
+    script.onload = ShopifyBuyInit;
+  }
+
+  function ShopifyBuyInit() {
+    var client = ShopifyBuy.buildClient({
+      domain: 'urban-straw.myshopify.com',
+      apiKey: 'bd5763692f23bcf20ca4f3f42e8a3122',
+      appId: '6',
+    });
+
+    ShopifyBuy.UI.onReady(client).then(function (ui) {
+      ui.createComponent('collection', {
+        id: 36676206639,
+        node: document.getElementById('collection-component-eb8919cb5de'),
+        moneyFormat: 'Rs.%20%7B%7Bamount%7D%7D',
+        options: {
+  "product": {
+    "variantId": "all",
+    "contents": {
+      "imgWithCarousel": false,
+      "variantTitle": false,
+      "description": false,
+      "buttonWithQuantity": false,
+      "quantity": false
+    },
+    "text": {
+      "button": "ADD TO BASKET"
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "calc(25% - 20px)",
+          "margin-left": "20px",
+          "margin-bottom": "50px"
+        }
+      },
+      "button": {
+        "background-color": "#8db24e",
+        "font-family": "Lato, sans-serif",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        ":hover": {
+          "background-color": "#7fa046"
+        },
+        ":focus": {
+          "background-color": "#7fa046"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Lato, sans-serif"
+      },
+      "description": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px"
+      },
+      "compareAt": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Lato",
+      "Lato",
+      "Lato",
+      "Lato",
+      "Lato",
+      "Lato"
+    ]
+  },
+  "cart": {
+    "contents": {
+      "button": true
+    },
+    "text": {
+      "empty": "Your basket is empty."
+    },
+    "styles": {
+      "button": {
+        "background-color": "#8db24e",
+        "font-family": "Lato, sans-serif",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        ":hover": {
+          "background-color": "#7fa046"
+        },
+        ":focus": {
+          "background-color": "#7fa046"
+        },
+        "font-weight": "normal"
+      },
+      "footer": {
+        "background-color": "#ffffff"
+      }
+    },
+    "googleFonts": [
+      "Lato"
+    ]
+  },
+  "modalProduct": {
+    "contents": {
+      "img": false,
+      "imgWithCarousel": true,
+      "variantTitle": false,
+      "buttonWithQuantity": true,
+      "button": false,
+      "quantity": false
+    },
+    "styles": {
+      "product": {
+        "@media (min-width: 601px)": {
+          "max-width": "100%",
+          "margin-left": "0px",
+          "margin-bottom": "0px"
+        }
+      },
+      "button": {
+        "background-color": "#8db24e",
+        "font-family": "Lato, sans-serif",
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px",
+        "padding-left": "20px",
+        "padding-right": "20px",
+        ":hover": {
+          "background-color": "#7fa046"
+        },
+        ":focus": {
+          "background-color": "#7fa046"
+        },
+        "font-weight": "normal"
+      },
+      "variantTitle": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "normal"
+      },
+      "title": {
+        "font-family": "Lato, sans-serif"
+      },
+      "description": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "normal"
+      },
+      "price": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "normal"
+      },
+      "quantityInput": {
+        "font-size": "13px",
+        "padding-top": "14.5px",
+        "padding-bottom": "14.5px"
+      },
+      "compareAt": {
+        "font-family": "Lato, sans-serif",
+        "font-weight": "normal"
+      }
+    },
+    "googleFonts": [
+      "Lato",
+      "Lato",
+      "Lato",
+      "Lato",
+      "Lato",
+      "Lato"
+    ]
+  },
+  "toggle": {
+    "styles": {
+      "toggle": {
+        "font-family": "Lato, sans-serif",
+        "background-color": "#8db24e",
+        ":hover": {
+          "background-color": "#7fa046"
+        },
+        ":focus": {
+          "background-color": "#7fa046"
+        },
+        "font-weight": "normal"
+      },
+      "count": {
+        "font-size": "13px"
+      }
+    },
+    "googleFonts": [
+      "Lato"
+    ]
+  },
+  "option": {
+    "styles": {
+      "label": {
+        "font-family": "Lato, sans-serif"
+      },
+      "select": {
+        "font-family": "Lato, sans-serif"
+      }
+    },
+    "googleFonts": [
+      "Lato",
+      "Lato"
+    ]
+  },
+  "productSet": {
+    "styles": {
+      "products": {
+        "@media (min-width: 601px)": {
+          "margin-left": "-20px"
+        }
+      }
+    }
+  }
+}
+      });
+    });
+  }
+})();
+/*]]>*/
+</script>
+
+      <!-- Shopify ends -->
+        
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        window.onload = function(){
+          var elem = document.querySelector('.sidenav');
+          var instance = M.Sidenav.init(elem);
+        }
+      </script>
+    </body>
+  </html>
+

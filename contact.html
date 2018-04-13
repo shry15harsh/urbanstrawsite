@@ -1,0 +1,97 @@
+ <!DOCTYPE html>
+  <html id="home">
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+      <link type="text/css" rel="stylesheet" href="css/style-tab.css"  media="screen,projection">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet"> 
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+
+      <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+      <link rel="icon" href="/favicon.ico" type="image/x-icon">
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <nav class="us-top-nav">
+          <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo left"><img src="images/urbanstrawlogo.png"/></a>
+            <a href="#" data-target="mobile" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <li><a class="waves-effect waves-light btn" href="shop.html">Shop</a></li>
+              <li><a href="whatwedo.html">What we do</a></li>
+              <li><a href="partners.html">Our Partners</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+              <li class="active"><a href="contact.html">Reach Us</a></li>
+            </ul>
+          </div>
+      </nav>
+
+      <ul id="mobile" class="sidenav">
+        <li><a class="waves-effect waves-light btn" href="shop.html">Shop</a></li>
+        <li><a href="whatwedo.html">What we do</a></li>
+        <li><a href="partners.html">Our Partners</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li class="active"><a href="contact.html">Reach Us</a></li>
+        <li><a href="http://facebook.com/urbanstraw"><i class="fab fa-facebook-f left"></i>Facebook</a></li>
+        <li><a href="instagram.com/urban.straw"><i class="fab fa-instagram left"></i>Instagram</a></li>
+      </ul>
+
+      <div class="row">
+      <div class="col s12 m6 center">
+          <div class="card smokewhite darken-1">
+            <div class="card-content">
+              <span class="card-title"><b>Businesses</b></span>
+              <p>If you are you any of the following?</p>
+              <p><b>Grower, Retailer, Business, Researcher, Enthusiast</b></p>
+              <br>
+              <p>Perfect! Let's get in touch to know how we can collaborate.</p>
+            </div>
+            <div class="card-action">
+              <p>Mail us at <a href="mailto:hello@urbanstraw.com">hello@urbanstraw.com</a><br> and we'll get back to you in less than <b>24 hours</b>.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6 center">
+          <div class="card smokewhite darken-1">
+            <div class="card-content">
+              <span class="card-title"><b>Contact us</b></span>
+              <i class="fas fa-phone center"></i><br>
+              <a href="tel:+918901333191">+91 8901 333 191</a>
+              <br>
+              <a href="tel:+919999726176">+91 9999 726 176</a>
+              <br>
+              <br>
+
+              <i class="fas fa-envelope center"></i><br>
+              <a href="mailto:hello@urbanstraw.com">hello@urbanstraw.com</a>
+              <br>
+              <br>
+
+              <i class="fas fa-comment center"></i><br>
+              <a target="_blank" href="https://www.facebook.com/messages/t/urbanstraw">Message us on Facebook</a>
+
+            </div>
+            <div class="card-action">
+              <a href="https://facebook.com/urbanstraw">Follow us on Facebook</a>
+              <a href="https://instagram.com/urban.straw">Follow us on Instagram</a>
+            </div>
+          </div>
+        </div>
+        </div>    
+        
+      <!--JavaScript at end of body for optimized loading-->
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        window.onload = function(){
+          var elem = document.querySelector('.sidenav');
+          var instance = M.Sidenav.init(elem);
+        }
+      </script>
+
+    </body>
+  </html>
