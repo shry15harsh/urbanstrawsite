@@ -6,7 +6,7 @@
 .brand-logo img{
   height:125px;
 }
-.us-top-nav a{
+.us-top-nav a{:selection
   color:#8DB24E;
   font-weight: bold;
   list-style: none;
@@ -19,4 +19,10 @@ html{
 }
 .shopify-buy__product__title{
   font-size: 12px !important;
+}
+#disclaimer{
+  background:#222222;
+  position: static;
+  text-align: center;
+  color:whitesmoke;
 }
