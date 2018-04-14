@@ -17,6 +17,7 @@
 }
 html{
   background: #F5F9F2;
+  font-family: Raleway !important;
 }
 #nav-mobile li a{
   text-transform: uppercase;
@@ -25,7 +26,12 @@ html{
   color:#90907B;
   background: #222222;
 }
+.card-title{
+  font-family: Raleway;
+  font-weight: 400 !important;
+}
 .card-content p{
+  font-family: Raleway;
   color:#444444 !important;
 }
 #instafeed .col{
