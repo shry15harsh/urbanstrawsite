@@ -13,7 +13,8 @@ var cacheTime = 21600000;
 
 app.use(compression());
 
-app.use(express.static(__dirname + '/public/', { extensions: ['html', 'htm'], maxAge : cacheTime }));
+app.use(express.static(__dirname + '/public/images/', { extensions: ['html', 'htm'], maxAge : cacheTime }));
+app.use(express.static(__dirname + '/public/', { extensions: ['html', 'htm'], maxAge : 0 }));
 
 app.use(bodyParser.urlencoded());
 
