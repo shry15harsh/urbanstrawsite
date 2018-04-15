@@ -42,7 +42,6 @@ html::after{
   height:150px;
 }
 .quote p{
-  font-weight: bold;
   font-size: 20px;
 }
 .actionArea{
