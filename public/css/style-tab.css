@@ -55,3 +55,6 @@ html{
 .container .row {
   margin: 0 auto;
 }
+th,td{
+	width:50%;
+}
